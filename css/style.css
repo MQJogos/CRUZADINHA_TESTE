@@ -1,0 +1,61 @@
+*{
+	/*margin-top: 100px;*/
+	margin: 0;
+	padding: 0;
+}
+body{
+      background-image: url("CRUZADINHA_A_002.png"); 
+      background-size: cover;
+      background-repeat: no-repeat;
+      font-family: sans-serif;
+      border-spacing: 0;
+}
+table, th, td{
+	width: 35%;
+	margin:auto;
+  border: 1px ;
+  border-collapse:collapse;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+  table-layout: fixed; 
+  margin-top: 100px;
+}
+
+input {
+  text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+  text-transform: lowercase;
+}
+:-moz-placeholder {
+  text-transform: lowercase;
+}
+::-moz-placeholder {
+  text-transform: lowercase;
+}
+
+:-ms-input-placeholder {
+   text-transform: lowercase; 
+}
+
+
+th,td {
+  padding: 1px;
+  opacity: 0.9;
+}
+
+.button {
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  cursor: context-menu; 
+}
+
+
+
+
